@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="t d">
+  <title id="t">Projetos</title>
+  <desc id="d">GymHub, aplicativo para academias, em parceria. CondoGest, gestão condominial, projeto em grupo. ClassUp, aplicativo educacional, em desenvolvimento.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e0c18"/>
+      <stop offset="1" stop-color="#16070c"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c41e3a"/>
+      <stop offset="1" stop-color="#d9a257"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f6e9e2" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f6e9e2" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f6e9e2" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="k1"><rect x="0" y="0" width="800" height="160" rx="18"/></clipPath>
+    <clipPath id="k2"><rect x="0" y="0" width="800" height="160" rx="18"/></clipPath>
+    <clipPath id="k3"><rect x="0" y="0" width="800" height="160" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .name { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size: 40px; font-weight: 200; letter-spacing: 1px; fill: #f6e9e2; }
+    .desc { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size: 22px; font-weight: 300; fill: #e8b4a0; }
+    .tag { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size: 18px; font-weight: 400; fill: #d9a257; }
+    .sw { animation: sw 7s ease-in-out infinite; }
+    .s2 { animation-delay: -2.3s; } .s3 { animation-delay: -4.6s; }
+    @keyframes sw { 0% { transform: translateX(-260px); } 55%,100% { transform: translateX(1000px); } }
+    .ico { animation: glow 4s ease-in-out infinite; }
+    @keyframes glow { 0%,100% { opacity: 0.7; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .sw { opacity: 0; } }
+  </style>
+
+  <!-- GymHub -->
+  <g transform="translate(0 10)">
+    <rect x="1" y="1" width="798" height="158" rx="18" fill="url(#card)" stroke="#e8b4a0" stroke-opacity="0.2"/>
+    <g clip-path="url(#k1)"><rect class="sw" x="0" y="0" width="260" height="3" fill="url(#sweep)"/></g>
+    <rect x="1" y="30" width="5" height="100" rx="2.5" fill="url(#edge)"/>
+    <g class="ico" transform="translate(44 52)" fill="none" stroke="#d9a257" stroke-width="5" stroke-linecap="round">
+      <path d="M6 8V48M18 0V56M64 0V56M76 8V48M18 28H64"/>
+    </g>
+    <text class="name" x="160" y="76">GymHub</text>
+    <text class="desc" x="160" y="114">Aplicativo para academias</text>
+    <text class="tag" x="600" y="48" text-anchor="start">Em parceria</text>
+  </g>
+
+  <!-- CondoGest -->
+  <g transform="translate(0 200)">
+    <rect x="1" y="1" width="798" height="158" rx="18" fill="url(#card)" stroke="#e8b4a0" stroke-opacity="0.2"/>
+    <g clip-path="url(#k2)"><rect class="sw s2" x="0" y="0" width="260" height="3" fill="url(#sweep)"/></g>
+    <rect x="1" y="30" width="5" height="100" rx="2.5" fill="url(#edge)"/>
+    <g class="ico" transform="translate(48 46)" fill="none" stroke="#d9a257" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M0 68V12H44V68M44 32H70V68M-6 68H76"/>
+      <path d="M12 26H20M26 26H34M12 42H20M26 42H34M12 58H20M26 58H34" stroke-width="4"/>
+    </g>
+    <text class="name" x="160" y="76">CondoGest</text>
+    <text class="desc" x="160" y="114">Gestão condominial com app e painel web</text>
+    <text class="tag" x="600" y="48">Projeto em grupo</text>
+  </g>
+
+  <!-- ClassUp -->
+  <g transform="translate(0 390)">
+    <rect x="1" y="1" width="798" height="158" rx="18" fill="url(#card)" stroke="#e8b4a0" stroke-opacity="0.2"/>
+    <g clip-path="url(#k3)"><rect class="sw s3" x="0" y="0" width="260" height="3" fill="url(#sweep)"/></g>
+    <rect x="1" y="30" width="5" height="100" rx="2.5" fill="url(#edge)"/>
+    <g class="ico" transform="translate(46 50)" fill="none" stroke="#d9a257" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <rect x="0" y="6" width="72" height="62" rx="8"/>
+      <path d="M0 26H72M20 0V14M52 0V14M20 48L30 58L52 38"/>
+    </g>
+    <text class="name" x="160" y="76">ClassUp</text>
+    <text class="desc" x="160" y="114">Tarefas, notas e calendário para alunos e professores</text>
+    <text class="tag" x="600" y="48">Em desenvolvimento</text>
+  </g>
+</svg>

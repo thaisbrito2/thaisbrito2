@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-labelledby="t d">
+  <title id="t">Thaís, design de produto e aplicativos</title>
+  <desc id="d">Cabeçalho animado com telas de aplicativo flutuando sobre um fundo vinho e carmim.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12060a"/>
+      <stop offset="0.55" stop-color="#2a0b16"/>
+      <stop offset="1" stop-color="#14070b"/>
+    </linearGradient>
+    <radialGradient id="glowRed" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#c41e3a" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#c41e3a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d9a257" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#d9a257" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="60" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6e9e2"/>
+      <stop offset="0.6" stop-color="#e8b4a0"/>
+      <stop offset="1" stop-color="#d9a257"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a0f1f"/>
+      <stop offset="1" stop-color="#1b0910"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c41e3a"/>
+      <stop offset="1" stop-color="#d9a257"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#e8b4a0" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1000" height="340" rx="18"/></clipPath>
+  </defs>
+
+  <style>
+    .orb1 { animation: drift1 15s ease-in-out infinite alternate; }
+    .orb2 { animation: drift2 19s ease-in-out infinite alternate; }
+    .orb3 { animation: drift1 23s ease-in-out infinite alternate-reverse; }
+    @keyframes drift1 { from { transform: translate(0,0); } to { transform: translate(70px,34px); } }
+    @keyframes drift2 { from { transform: translate(0,0); } to { transform: translate(-80px,-26px); } }
+    .fa { animation: floatY 7s ease-in-out infinite; }
+    .fb { animation: floatY 6s ease-in-out -2s infinite; }
+    .fc { animation: floatY 8s ease-in-out -4s infinite; }
+    @keyframes floatY { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+    .ring { stroke-dasharray: 150.8; stroke-dashoffset: 150.8; animation: fill 6s ease-in-out infinite; }
+    @keyframes fill { 0% { stroke-dashoffset: 150.8; } 45%,80% { stroke-dashoffset: 38; } 100% { stroke-dashoffset: 150.8; } }
+    .bar { transform-box: fill-box; transform-origin: bottom; animation: grow 4.5s ease-in-out infinite; }
+    .bar:nth-of-type(2) { animation-delay: -1s; }
+    .bar:nth-of-type(3) { animation-delay: -2s; }
+    .bar:nth-of-type(4) { animation-delay: -3s; }
+    @keyframes grow { 0%,100% { transform: scaleY(0.45); } 50% { transform: scaleY(1); } }
+    .role { opacity: 0; animation: cycle 12s ease-in-out infinite; }
+    .r2 { animation-delay: 3s; }
+    .r3 { animation-delay: 6s; }
+    .r4 { animation-delay: 9s; }
+    @keyframes cycle {
+      0% { opacity: 0; transform: translateY(10px); }
+      3% { opacity: 1; transform: translateY(0); }
+      22% { opacity: 1; transform: translateY(0); }
+      25% { opacity: 0; transform: translateY(-8px); }
+      100% { opacity: 0; }
+    }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .scan { animation: scan 9s linear infinite; }
+    @keyframes scan { from { transform: translateX(-120px); } to { transform: translateX(1120px); } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .role { opacity: 0; }
+      .r1 { opacity: 1; }
+      .ring { stroke-dashoffset: 38; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="340" fill="url(#bg)"/>
+    <rect width="1000" height="340" fill="url(#grid)"/>
+
+    <g class="orb1"><circle cx="150" cy="60" r="190" fill="url(#glowRed)"/></g>
+    <g class="orb2"><circle cx="820" cy="300" r="210" fill="url(#glowRed)" opacity="0.8"/></g>
+    <g class="orb3"><circle cx="560" cy="40" r="140" fill="url(#glowGold)"/></g>
+
+    <g class="scan" opacity="0.5">
+      <rect x="0" y="0" width="2" height="340" fill="#e8b4a0" opacity="0.35"/>
+    </g>
+
+    <!-- Nome e funções -->
+    <text x="60" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="92" font-weight="200" letter-spacing="3" fill="url(#name)">Thaís</text>
+    <rect x="62" y="172" width="64" height="3" rx="1.5" fill="url(#accent)"/>
+
+    <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="300" fill="#f6e9e2">
+      <text class="role r1" x="62" y="228">Design de produto</text>
+      <text class="role r2" x="62" y="228">Aplicativos web e mobile</text>
+      <text class="role r3" x="62" y="228">Requisitos e fluxos de usuário</text>
+      <text class="role r4" x="62" y="228">Prototipação de interfaces</text>
+    </g>
+    <rect class="cursor" x="62" y="244" width="14" height="3" fill="#d9a257"/>
+
+    <!-- Telas de aplicativo -->
+    <g transform="translate(590 78) rotate(-7 60 108)">
+      <g class="fa">
+        <rect width="124" height="216" rx="16" fill="url(#screen)" stroke="#e8b4a0" stroke-opacity="0.35"/>
+        <rect x="14" y="16" width="44" height="6" rx="3" fill="#e8b4a0" opacity="0.7"/>
+        <rect x="14" y="40" width="96" height="44" rx="8" fill="#5a1022" opacity="0.85"/>
+        <rect x="14" y="94" width="96" height="30" rx="8" fill="#e8b4a0" opacity="0.14"/>
+        <rect x="14" y="132" width="96" height="30" rx="8" fill="#e8b4a0" opacity="0.14"/>
+        <rect x="30" y="182" width="64" height="16" rx="8" fill="#c41e3a" opacity="0.9"/>
+      </g>
+    </g>
+
+    <g transform="translate(822 96) rotate(7 60 108)">
+      <g class="fc">
+        <rect width="124" height="216" rx="16" fill="url(#screen)" stroke="#e8b4a0" stroke-opacity="0.35"/>
+        <circle cx="62" cy="64" r="24" fill="none" stroke="#e8b4a0" stroke-opacity="0.2" stroke-width="6"/>
+        <circle class="ring" cx="62" cy="64" r="24" fill="none" stroke="#d9a257" stroke-width="6" stroke-linecap="round" transform="rotate(-90 62 64)"/>
+        <rect x="14" y="112" width="96" height="10" rx="5" fill="#e8b4a0" opacity="0.18"/>
+        <rect x="14" y="132" width="70" height="10" rx="5" fill="#e8b4a0" opacity="0.18"/>
+        <rect x="14" y="152" width="84" height="10" rx="5" fill="#e8b4a0" opacity="0.18"/>
+        <rect x="30" y="182" width="64" height="16" rx="8" fill="#d9a257" opacity="0.85"/>
+      </g>
+    </g>
+
+    <g transform="translate(704 44)">
+      <g class="fb">
+        <rect width="148" height="250" rx="20" fill="url(#screen)" stroke="url(#accent)" stroke-width="1.5"/>
+        <rect x="52" y="10" width="44" height="6" rx="3" fill="#e8b4a0" opacity="0.5"/>
+        <rect x="16" y="34" width="84" height="12" rx="6" fill="#f6e9e2" opacity="0.9"/>
+        <rect x="16" y="54" width="52" height="8" rx="4" fill="#e8b4a0" opacity="0.5"/>
+        <rect x="16" y="82" width="116" height="78" rx="12" fill="#5a1022" opacity="0.8"/>
+        <g fill="url(#accent)">
+          <rect class="bar" x="30" y="100" width="14" height="46" rx="3"/>
+          <rect class="bar" x="56" y="100" width="14" height="46" rx="3"/>
+          <rect class="bar" x="82" y="100" width="14" height="46" rx="3"/>
+          <rect class="bar" x="108" y="100" width="14" height="46" rx="3"/>
+        </g>
+        <rect x="16" y="172" width="116" height="26" rx="8" fill="#e8b4a0" opacity="0.14"/>
+        <rect x="16" y="206" width="116" height="28" rx="14" fill="url(#accent)"/>
+      </g>
+    </g>
+  </g>
+</svg>

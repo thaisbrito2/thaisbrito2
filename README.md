@@ -1,49 +1,35 @@
-<h1 align="center">Olá, eu sou a Thaís 👋</h1>
+<img src="assets/header.svg" alt="Thaís: design de produto, aplicativos web e mobile, requisitos e fluxos de usuário, prototipação de interfaces" width="100%">
 
-<p align="center">
-  <b>Design de produto e desenvolvimento de aplicativos web e mobile</b><br>
-  Transformo problemas reais em produtos organizados, bonitos e fáceis de usar.
-</p>
+<br>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Campo%20Grande-MS-1f6feb?style=flat-square" alt="Campo Grande, MS">
-</p>
+Transformo problemas reais em produtos organizados e fáceis de usar. Acompanho a ideia do início ao fim: entendo o problema, escrevo os requisitos, desenho as telas e construo o aplicativo.
 
----
+Campo Grande, MS.
 
-## 🚀 Sobre mim
+<img src="assets/divider.svg" alt="" width="100%">
 
-Gosto de acompanhar um produto de ponta a ponta: entender o problema, escrever os requisitos, desenhar as telas e levar a ideia até um aplicativo funcionando.
+## Como eu trabalho
 
-- 🎨 Cuido do **design de interfaces e da experiência do usuário**, da prototipação ao visual final
-- 📋 Documento produtos com **requisitos, regras de negócio e fluxos de usuário**
-- 📱 Construo **aplicativos web e mobile**, com foco em soluções low-code e backend na nuvem
-- 🤝 Gosto de trabalhar em equipe e de apresentar os projetos que construo
-- 🌱 Estou sempre aprendendo, e agora aprofundando meus estudos em **FlutterFlow**
+**Design de interfaces e experiência do usuário.** Da prototipação ao visual final, com foco em telas claras e fluxos simples.
 
----
+**Documentação de produto.** Requisitos funcionais e não funcionais, regras de negócio, personas e fluxos de usuário.
 
-## 🛠️ Ferramentas
+**Aplicativos web e mobile.** Construção com ferramentas low-code e backend na nuvem. Agora aprofundando meus estudos em FlutterFlow.
 
-<p>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
-  <img src="https://img.shields.io/badge/FlutterFlow-02A8F3?style=for-the-badge&logo=flutter&logoColor=white" alt="FlutterFlow">
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase">
-  <img src="https://img.shields.io/badge/AppSheet-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="AppSheet">
-  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Google Sheets">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</p>
+**Trabalho em equipe.** Gosto de construir em grupo e de apresentar os projetos que desenvolvo.
 
----
+<img src="assets/divider.svg" alt="" width="100%">
 
-## 📂 Projetos
+## Ferramentas
 
-| Projeto | O que é |
-| --- | --- |
-| **GymHub** | Aplicativo para academias, desenvolvido em parceria, com foco em tornar a gestão e a rotina de alunos e gestores mais simples. |
-| **CondoGest** | Plataforma de gestão condominial com aplicativo e painel web, desenvolvida em grupo. |
-| **ClassUp** | Aplicativo web educacional que organiza tarefas, trabalhos, notas e calendário para alunos e professores. |
+<img src="assets/stack.svg" alt="Figma, FlutterFlow, Firebase, AppSheet, Google Sheets e GitHub" width="100%">
 
----
+<img src="assets/divider.svg" alt="" width="100%">
 
-<p align="center"><sub>Obrigada por passar por aqui! ✨</sub></p>
+## Projetos
+
+<img src="assets/projects.svg" alt="GymHub, aplicativo para academias, em parceria. CondoGest, gestão condominial com app e painel web, projeto em grupo. ClassUp, tarefas, notas e calendário para alunos e professores, em desenvolvimento." width="100%">
+
+<br>
+
+<img src="assets/footer.svg" alt="Obrigada por passar por aqui" width="100%">

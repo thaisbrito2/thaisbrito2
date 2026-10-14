@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" role="img" aria-labelledby="t">
+  <title id="t">Obrigada por passar por aqui</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14070b"/>
+      <stop offset="1" stop-color="#2a0b16"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a1022"/>
+      <stop offset="0.5" stop-color="#c41e3a"/>
+      <stop offset="1" stop-color="#5a1022"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9a257" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#d9a257" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#d9a257" stop-opacity="0.15"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1000" height="160" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .wa { animation: slide 14s linear infinite; }
+    .wb { animation: slide 22s linear infinite reverse; }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-1000px); } }
+    .msg { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size: 26px; font-weight: 200; letter-spacing: 2px; fill: #f6e9e2; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="160" fill="url(#bg)"/>
+    <g class="wb" opacity="0.9">
+      <path d="M0 96 Q125 66 250 96 T500 96 T750 96 T1000 96 T1250 96 T1500 96 T1750 96 T2000 96 V160 H0 Z" fill="url(#w2)"/>
+    </g>
+    <g class="wa">
+      <path d="M0 116 Q125 90 250 116 T500 116 T750 116 T1000 116 T1250 116 T1500 116 T1750 116 T2000 116 V160 H0 Z" fill="url(#w1)" opacity="0.85"/>
+    </g>
+    <text class="msg" x="500" y="62" text-anchor="middle">Obrigada por passar por aqui</text>
+  </g>
+</svg>
