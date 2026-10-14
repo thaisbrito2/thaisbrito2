@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-labelledby="t d">
-  <title id="t">Thaís, design de produto e aplicativos</title>
+  <title id="t">Thais, design de produto e aplicativos</title>
   <desc id="d">Cabeçalho animado com telas de aplicativo flutuando sobre um fundo vinho e carmim.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -87,7 +87,7 @@
     </g>
 
     <!-- Nome e funções -->
-    <text x="60" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="92" font-weight="200" letter-spacing="3" fill="url(#name)">Thaís</text>
+    <text x="60" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="92" font-weight="200" letter-spacing="3" fill="url(#name)">Thais</text>
     <rect x="62" y="172" width="64" height="3" rx="1.5" fill="url(#accent)"/>
 
     <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="32" font-weight="300" fill="#f6e9e2">

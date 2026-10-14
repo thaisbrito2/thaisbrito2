@@ -1,4 +1,4 @@
-<img src="assets/header.svg" alt="Thaís: design de produto, aplicativos web e mobile, requisitos e fluxos de usuário, prototipação de interfaces" width="100%">
+<img src="assets/header.svg" alt="Thais: design de produto, aplicativos web e mobile, requisitos e fluxos de usuário, prototipação de interfaces" width="100%">
 
 <br>
 
