@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 190" role="img" aria-labelledby="t d">
-  <title id="t">Ferramentas</title>
-  <desc id="d">Figma, FlutterFlow, Firebase, AppSheet, Google Sheets e GitHub.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 280" role="img" aria-labelledby="t d">
+  <title id="t">Linguagens e ferramentas</title>
+  <desc id="d">HTML, CSS, Python, Java, Figma, FlutterFlow, Firebase, AppSheet, Google Sheets e GitHub.</desc>
   <defs>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#c41e3a"/>
@@ -14,18 +14,26 @@
   <style>
     text { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size: 26px; font-weight: 300; fill: #f6e9e2; }
     .chip { animation: lift 6s ease-in-out infinite; }
-    .c2 { animation-delay: -1s; } .c3 { animation-delay: -2s; }
-    .c4 { animation-delay: -3s; } .c5 { animation-delay: -4s; } .c6 { animation-delay: -5s; }
+    .c2 { animation-delay: -0.6s; } .c3 { animation-delay: -1.2s; } .c4 { animation-delay: -1.8s; }
+    .c5 { animation-delay: -2.4s; } .c6 { animation-delay: -3s; } .c7 { animation-delay: -3.6s; }
+    .c8 { animation-delay: -4.2s; } .c9 { animation-delay: -4.8s; } .c10 { animation-delay: -5.4s; }
     @keyframes lift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
     .pulse { animation: pulse 3s ease-in-out infinite; }
     @keyframes pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
 
-  <g class="chip c1"><rect x="20" y="20" width="156" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="52" cy="50" r="7" fill="#c41e3a"/><text x="72" y="58">Figma</text></g>
-  <g class="chip c2"><rect x="196" y="20" width="214" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="228" cy="50" r="7" fill="#d9a257"/><text x="248" y="58">FlutterFlow</text></g>
-  <g class="chip c3"><rect x="430" y="20" width="190" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="462" cy="50" r="7" fill="#e8b4a0"/><text x="482" y="58">Firebase</text></g>
-  <g class="chip c4"><rect x="20" y="110" width="190" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="52" cy="140" r="7" fill="#d9a257"/><text x="72" y="148">AppSheet</text></g>
-  <g class="chip c5"><rect x="230" y="110" width="250" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="262" cy="140" r="7" fill="#c41e3a"/><text x="282" y="148">Google Sheets</text></g>
-  <g class="chip c6"><rect x="500" y="110" width="160" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="532" cy="140" r="7" fill="#e8b4a0"/><text x="552" y="148">GitHub</text></g>
+  <!-- Linguagens -->
+  <g class="chip c1"><rect x="20" y="20" width="140" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="52" cy="50" r="7" fill="#d9a257"/><text x="72" y="58">HTML</text></g>
+  <g class="chip c2"><rect x="180" y="20" width="130" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="212" cy="50" r="7" fill="#c41e3a"/><text x="232" y="58">CSS</text></g>
+  <g class="chip c3"><rect x="330" y="20" width="180" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="362" cy="50" r="7" fill="#e8b4a0"/><text x="382" y="58">Python</text></g>
+  <g class="chip c4"><rect x="530" y="20" width="140" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="562" cy="50" r="7" fill="#d9a257"/><text x="582" y="58">Java</text></g>
+
+  <!-- Ferramentas -->
+  <g class="chip c5"><rect x="20" y="110" width="156" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="52" cy="140" r="7" fill="#c41e3a"/><text x="72" y="148">Figma</text></g>
+  <g class="chip c6"><rect x="196" y="110" width="214" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="228" cy="140" r="7" fill="#d9a257"/><text x="248" y="148">FlutterFlow</text></g>
+  <g class="chip c7"><rect x="430" y="110" width="190" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="462" cy="140" r="7" fill="#e8b4a0"/><text x="482" y="148">Firebase</text></g>
+  <g class="chip c8"><rect x="20" y="200" width="190" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="52" cy="230" r="7" fill="#d9a257"/><text x="72" y="238">AppSheet</text></g>
+  <g class="chip c9"><rect x="230" y="200" width="250" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="262" cy="230" r="7" fill="#c41e3a"/><text x="282" y="238">Google Sheets</text></g>
+  <g class="chip c10"><rect x="500" y="200" width="160" height="60" rx="30" fill="url(#fill)" stroke="url(#edge)" stroke-width="1.5"/><circle class="pulse" cx="532" cy="230" r="7" fill="#e8b4a0"/><text x="552" y="238">GitHub</text></g>
 </svg>

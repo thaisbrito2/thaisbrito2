@@ -14,15 +14,15 @@ Campo Grande, MS.
 
 **Documentação de produto.** Requisitos funcionais e não funcionais, regras de negócio, personas e fluxos de usuário.
 
-**Aplicativos web e mobile.** Construção com ferramentas low-code e backend na nuvem. Agora aprofundando meus estudos em FlutterFlow.
+**Desenvolvimento web e mobile.** Experiência com HTML e CSS, noções de Python e Java, e construção de aplicativos com ferramentas low-code e backend na nuvem. Agora aprofundando meus estudos em FlutterFlow.
 
 **Trabalho em equipe.** Gosto de construir em grupo e de apresentar os projetos que desenvolvo.
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-## Ferramentas
+## Linguagens e ferramentas
 
-<img src="assets/stack.svg" alt="Figma, FlutterFlow, Firebase, AppSheet, Google Sheets e GitHub" width="100%">
+<img src="assets/stack.svg" alt="HTML, CSS, Python, Java, Figma, FlutterFlow, Firebase, AppSheet, Google Sheets e GitHub" width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 
