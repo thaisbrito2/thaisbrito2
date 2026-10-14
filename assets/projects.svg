@@ -21,8 +21,8 @@
   </defs>
   <style>
     .name { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size: 40px; font-weight: 200; letter-spacing: 1px; fill: #f6e9e2; }
-    .desc { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size: 22px; font-weight: 300; fill: #e8b4a0; }
-    .tag { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size: 18px; font-weight: 400; fill: #d9a257; }
+    .desc { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size: 26px; font-weight: 300; fill: #e8b4a0; }
+    .tag { font-family: 'Segoe UI','Helvetica Neue',Arial,sans-serif; font-size: 22px; font-weight: 400; fill: #d9a257; }
     .sw { animation: sw 7s ease-in-out infinite; }
     .s2 { animation-delay: -2.3s; } .s3 { animation-delay: -4.6s; }
     @keyframes sw { 0% { transform: translateX(-260px); } 55%,100% { transform: translateX(1000px); } }
@@ -40,8 +40,8 @@
       <path d="M6 8V48M18 0V56M64 0V56M76 8V48M18 28H64"/>
     </g>
     <text class="name" x="160" y="76">GymHub</text>
-    <text class="desc" x="160" y="114">Aplicativo para academias</text>
-    <text class="tag" x="600" y="48" text-anchor="start">Em parceria</text>
+    <text class="desc" x="160" y="118">Aplicativo para academias</text>
+    <text class="tag" x="560" y="52" text-anchor="start">Em parceria</text>
   </g>
 
   <!-- CondoGest -->
@@ -54,8 +54,8 @@
       <path d="M12 26H20M26 26H34M12 42H20M26 42H34M12 58H20M26 58H34" stroke-width="4"/>
     </g>
     <text class="name" x="160" y="76">CondoGest</text>
-    <text class="desc" x="160" y="114">Gestão condominial com app e painel web</text>
-    <text class="tag" x="600" y="48">Projeto em grupo</text>
+    <text class="desc" x="160" y="118">Gestão condominial com app e painel web</text>
+    <text class="tag" x="560" y="52">Projeto em grupo</text>
   </g>
 
   <!-- ClassUp -->
@@ -68,7 +68,7 @@
       <path d="M0 26H72M20 0V14M52 0V14M20 48L30 58L52 38"/>
     </g>
     <text class="name" x="160" y="76">ClassUp</text>
-    <text class="desc" x="160" y="114">Tarefas, notas e calendário para alunos e professores</text>
-    <text class="tag" x="600" y="48">Em desenvolvimento</text>
+    <text class="desc" x="160" y="118">Tarefas, notas e calendário</text>
+    <text class="tag" x="560" y="52">Em desenvolvimento</text>
   </g>
 </svg>

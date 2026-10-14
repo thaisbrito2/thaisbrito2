@@ -90,7 +90,7 @@
     <text x="60" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="92" font-weight="200" letter-spacing="3" fill="url(#name)">Thaís</text>
     <rect x="62" y="172" width="64" height="3" rx="1.5" fill="url(#accent)"/>
 
-    <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="300" fill="#f6e9e2">
+    <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="32" font-weight="300" fill="#f6e9e2">
       <text class="role r1" x="62" y="228">Design de produto</text>
       <text class="role r2" x="62" y="228">Aplicativos web e mobile</text>
       <text class="role r3" x="62" y="228">Requisitos e fluxos de usuário</text>
